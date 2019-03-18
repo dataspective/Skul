@@ -28,21 +28,21 @@ My personal todo list for the project
   
 - [x] You have a GitHub account with a username that we can map to your real name
 
-- [ ] Filled out the individual survey for group forming
+- [x] Filled out the individual survey for group forming
 
-- [ ] Received a Taiga invite
+- [x] Received a Taiga invite
 
-- [ ] Accepted the Taiga invite
+- [x] Accepted the Taiga invite
 
-- [ ] Did you check on Slack and/or Canvas for your group
+- [x] Did you check on Slack and/or Canvas for your group
 
-- [ ] Contacted your team members
+- [x] Contacted your team members
 
-- [ ] Read the kickoff document
+- [x] Read the kickoff document
 
-- [ ] Understood the kickoff document
+- [x] Understood the kickoff document
 
-- [ ] Understand how to get started and what the next steps in your project are
+- [x] Understand how to get started and what the next steps in your project are
 
-- [ ] Made an initial commit on your teams README
+- [x] Made an initial commit on your teams README
 
