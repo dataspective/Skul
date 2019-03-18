@@ -384,7 +384,7 @@ public class EventDialog extends JDialog implements WindowListener {
         // Finally build the Dialog
         topPanel.add(headerPanel, BorderLayout.NORTH);
         topPanel.add(eventPanel, BorderLayout.SOUTH);
-        bottomPanel.add(repeatPanel, BorderLayout.NORTH);
+        //bottomPanel.add(repeatPanel, BorderLayout.NORTH);
         bottomPanel.add(buttonsPanel, BorderLayout.SOUTH);
         this.getContentPane().add(topPanel, BorderLayout.NORTH);
         this.getContentPane().add(bottomPanel, BorderLayout.SOUTH);
