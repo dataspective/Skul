@@ -1,4 +1,4 @@
-Project SER316
+﻿Project SER316
 
 This is the initial dump for the SER316 project. It is a slightly modified version of the Memoranda project from memoranda.sf.net
 
@@ -26,7 +26,7 @@ My personal todo list for the project
   
 - [x] Download and install Git
   
-- [ ] You have a GitHub account with a username that we can map to your real name
+- [x] You have a GitHub account with a username that we can map to your real name
 
 - [ ] Filled out the individual survey for group forming
 
