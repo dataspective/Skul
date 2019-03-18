@@ -106,7 +106,7 @@ public class EventDialog extends JDialog implements WindowListener {
         headerPanel.add(header);
         
         // Build eventPanel
-        lblTime.setText(Local.getString("Time"));
+        lblTime.setText(Local.getString("Time Slot"));
         lblTime.setMinimumSize(new Dimension(60, 24));
         gbc = new GridBagConstraints();
         gbc.gridx = 0; gbc.gridy = 0;
