@@ -96,7 +96,7 @@ public class EventDialog extends JDialog implements WindowListener {
     void jbInit() throws Exception {
     	this.setResizable(false);
         // Build headerPanel
-        headerPanel.setBackground(Color.WHITE);
+        headerPanel.setBackground(Color.GREEN);
         headerPanel.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 5));
         header.setFont(new java.awt.Font("Dialog", 0, 20));
         header.setForeground(new Color(0, 0, 124));
