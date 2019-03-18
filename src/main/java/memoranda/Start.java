@@ -68,7 +68,7 @@ public class Start {
 }
 
 class SLThread extends Thread {
-    
+    //This is a thread
     public void run() {
         ServerSocket serverSocket = null;
         try {
