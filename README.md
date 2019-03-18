@@ -56,16 +56,16 @@ Dr. Mehlhase
 ======================================================
 
 My personal todo list for the project
-<MyName>
+Julie Hudson
 
-- [ ] Download and install Git
-- [ ] You have a GitHub account with a username that we can map to your real name
-- [ ] Filled out the individual survey for group forming
-- [ ] Received a Taiga invite
-- [ ] Accepted the Taiga invite
-- [ ] Did you check on Slack and/or Canvas for your group
-- [ ] Contacted your team members
-- [ ] Read the kickoff document
-- [ ] Understood the kickoff document
-- [ ] Understand how to get started and what the next steps in your project are
-- [ ] Made an initial commit on your teams README
+- [X] Download and install Git
+- [X] You have a GitHub account with a username that we can map to your real name
+- [X] Filled out the individual survey for group forming
+- [X] Received a Taiga invite
+- [X] Accepted the Taiga invite
+- [X] Did you check on Slack and/or Canvas for your group
+- [X] Contacted your team members
+- [X] Read the kickoff document
+- [X] Understood the kickoff document
+- [X] Understand how to get started and what the next steps in your project are
+- [X] Made an initial commit on your teams README
