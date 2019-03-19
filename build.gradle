@@ -4,6 +4,15 @@ mainClassName = 'main/java/memoranda/Start'
 
 compileJava.options.encoding = 'UTF-8'
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'main/java/memoranda/Start'
+    }
+    baseName = 'jian7024_memoranda'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
 // Repositories and dependencies for code go here
 repositories {
   mavenCentral()
