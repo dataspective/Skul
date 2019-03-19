@@ -1,4 +1,4 @@
-Project SER316
+﻿Project SER316
 
 Description
 Skul is a teacher course planning program that was designed using legacy code from the program Memoranda.
@@ -58,14 +58,14 @@ Dr. Mehlhase
 My personal todo list for the project
 <MyName>
 
-- [ ] Download and install Git
-- [ ] You have a GitHub account with a username that we can map to your real name
-- [ ] Filled out the individual survey for group forming
-- [ ] Received a Taiga invite
-- [ ] Accepted the Taiga invite
-- [ ] Did you check on Slack and/or Canvas for your group
-- [ ] Contacted your team members
-- [ ] Read the kickoff document
-- [ ] Understood the kickoff document
-- [ ] Understand how to get started and what the next steps in your project are
-- [ ] Made an initial commit on your teams README
+- [x ] Download and install Git
+- [x ] You have a GitHub account with a username that we can map to your real name
+- [x ] Filled out the individual survey for group forming
+- [x ] Received a Taiga invite
+- [x ] Accepted the Taiga invite
+- [x ] Did you check on Slack and/or Canvas for your group
+- [x ] Contacted your team members
+- [x ] Read the kickoff document
+- [x ] Understood the kickoff document
+- [x ] Understand how to get started and what the next steps in your project are
+- [x ] Made an initial commit on your teams README
