@@ -71,7 +71,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     catch(Exception e) {
       e.printStackTrace();
     }
-    setSize(400, 500);
+    setSize(450, 600);
   }
   //Component initialization
   private void jbInit() throws Exception  {    
@@ -93,14 +93,14 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     // Initialize Objects
     lblText.setFont(new java.awt.Font("Dialog", 0, 11));
     lblText.setText(text);
-    lblText.setBounds(10, 55, 300, 400);
+    lblText.setBounds(10, 150, 300, 450); // set text location
 
     
     button1.setText(Local.getString("Ok"));
-    button1.setBounds(150, 415, 95, 30);
+    button1.setBounds(150, 500, 95, 30); //Set button location
     button1.addActionListener(this);
-    button1.setPreferredSize(new Dimension(95, 30));
-    button1.setBackground(new Color(69, 125, 186));
+    button1.setPreferredSize(new Dimension(95, 30)); //Set Button size
+    button1.setBackground(new Color(251, 179, 50)); //Set Button color
     button1.setForeground(Color.white);
     layeredPane = getLayeredPane();
     //layeredPane.setPreferredSize(new Dimension(300, 300));
