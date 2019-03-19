@@ -71,7 +71,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     catch(Exception e) {
       e.printStackTrace();
     }
-    setSize(450, 600);
+    setSize(450, 700);
   }
   //Component initialization
   private void jbInit() throws Exception  {    
@@ -97,7 +97,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
 
     
     button1.setText(Local.getString("Ok"));
-    button1.setBounds(150, 500, 95, 30); //Set button location
+    button1.setBounds(150, 650, 95, 30); //Set button location
     button1.addActionListener(this);
     button1.setPreferredSize(new Dimension(95, 30)); //Set Button size
     button1.setBackground(new Color(251, 179, 50)); //Set Button color
