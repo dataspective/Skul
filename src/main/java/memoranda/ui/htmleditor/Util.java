@@ -75,7 +75,7 @@ public class Util {
     }
 
     public static void setColorField(JTextField field) {
-        Color c = Util.decodeColor(field.getText(), Color.black);
+        Color c = Util.decodeColor(field.getText(), Color.red);
         field.setForeground(c);
         //field.setForeground(new Color(~c.getRGB()));
     }
