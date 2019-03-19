@@ -29,13 +29,19 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
   JLabel lblText = new JLabel();
   
   String product = "Version "+App.VERSION_INFO + " (Build " + App.BUILD_INFO + ")";
-  String copyright = "Copyright (c) 2003, 2004 Memoranda team";
+  String copyright = "Copyright (c) 2003, 2004 Memoranda team & Museuminsel team";
   String url = App.WEBSITE_URL;
   String developersHead = Local.getString("Developers") + ":";
   String[] developers = {
+		  	  "Raymond Acevedo (raymond.acevedo5@asu.edu)",
               "Alex Alishevskikh (alexeya@users.sourceforge.net)",
+              "Taryn Betz (tbetz@asu.edu)",
               "Patrick Bielen (bielen@stafa.nl)",
+              "Derek Fermaint (dfermaint@asu.edu)",
+              "Justin Fitzpatrick (justin.fitzpatrick82@gmail.com)",
               "Ryan Ho (rawsushi@users.sourceforge.net)",
+              "Julie Hudson (jhudson2@asu.edu)",
+              "Antonio Jian (jian7024@asu.edu)",
               "Ivan Ribas (ivanrise@users.sourceforge.net)",
               "Jyrki Velhonoja (velhonoja@kapsi.fi>)",
   			  "Jeremy Whitlock (jwhitlock@starprecision.com)"              
@@ -82,7 +88,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     text += "</html>";
     
     image = new ImageIcon(AppFrame_AboutBox.class.getResource("/ui/memoranda.png"));
-    this.setTitle(Local.getString("About Memoranda"));
+    this.setTitle(Local.getString("About Skul"));
     setResizable(false);
     // Initialize Objects
     lblText.setFont(new java.awt.Font("Dialog", 0, 11));
@@ -103,7 +109,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     layeredPane.add(imgLabel, new Integer(1));
     layeredPane.add(lblText, new Integer(2));    
     layeredPane.add(button1, new Integer(2));
-    this.getContentPane().setBackground(new Color(251, 197, 63));
+    this.getContentPane().setBackground(new Color(51, 150, 251));
   }
   //Overridden so we can exit when window is closed
   protected void processWindowEvent(WindowEvent e) {
